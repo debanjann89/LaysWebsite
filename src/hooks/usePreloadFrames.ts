@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const FRAME_COUNT = 240;
+const FRAME_COUNT = 239;
 const getFrameUrl = (index: number) => `/frames/ezgif-frame-${index.toString().padStart(3, '0')}.jpg`;
 
 export function usePreloadFrames() {

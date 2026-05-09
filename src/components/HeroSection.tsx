@@ -127,7 +127,7 @@ export function HeroSection({ images }: HeroSectionProps) {
         </div>
 
         <div ref={text2Ref} className="absolute w-full text-center opacity-0">
-          <h1 className="font-display-hero text-[60px] md:text-[120px] font-black uppercase text-white tracking-tighter drop-shadow-[0_10px_40px_rgba(255,255,255,0.4)]" style={{ textShadow: '0px 10px 30px rgba(0,0,0,0.9), 0px 0px 20px rgba(255,255,255,0.3)' }}>
+          <h1 className="font-display-hero text-[50px] md:text-[120px] font-black uppercase text-white tracking-tighter drop-shadow-[0_10px_40px_rgba(255,255,255,0.4)]" style={{ textShadow: '0px 10px 30px rgba(0,0,0,0.9), 0px 0px 20px rgba(255,255,255,0.3)' }}>
             MAGIC
           </h1>
         </div>
@@ -139,7 +139,7 @@ export function HeroSection({ images }: HeroSectionProps) {
         </div>
 
         <div ref={text4Ref} className="absolute w-full text-center opacity-0">
-          <h1 className="font-display-hero text-[80px] md:text-[180px] font-black uppercase tracking-tighter text-[#ffb347] drop-shadow-[0_0_60px_rgba(255,165,0,1)]" style={{ textShadow: '0px 10px 40px rgba(0,0,0,0.9), 0px 0px 30px rgba(255,165,0,0.6)' }}>
+          <h1 className="font-display-hero text-[60px] md:text-[180px] font-black uppercase tracking-tighter text-[#ffb347] drop-shadow-[0_0_60px_rgba(255,165,0,1)]" style={{ textShadow: '0px 10px 40px rgba(0,0,0,0.9), 0px 0px 30px rgba(255,165,0,0.6)' }}>
             CRUNCH
           </h1>
         </div>
