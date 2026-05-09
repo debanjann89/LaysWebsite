@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+
+@theme {
+  --color-lays-yellow: #F4C430;
+  --color-lays-red: #D2122E;
+  --color-lays-blue: #004B87;
+  
+  --font-display-hero: "Bebas Neue", Impact, sans-serif;
+  --font-headline-lg: "Montserrat", sans-serif;
+  --font-headline-md: "Montserrat", sans-serif;
+  --font-body-lg: "Montserrat", sans-serif;
+  --font-body-md: "Montserrat", sans-serif;
+  --font-label-sm: "Montserrat", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-950 text-white overflow-x-hidden;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+}
