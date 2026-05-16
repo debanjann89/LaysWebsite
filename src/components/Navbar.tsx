@@ -34,6 +34,7 @@ export function Navbar() {
           
           {/* Desktop Links */}
           <div className="hidden md:flex space-x-8 text-white/90 font-headline-md font-bold text-sm tracking-widest uppercase items-center">
+            <button onClick={() => scrollTo('video-showcase')} className="hover:text-lays-yellow transition-colors drop-shadow-md">Watch</button>
             <button onClick={() => scrollTo('flavors')} className="hover:text-lays-yellow transition-colors drop-shadow-md">Flavors</button>
             <button onClick={() => scrollTo('recipes')} className="hover:text-lays-yellow transition-colors drop-shadow-md">Recipes</button>
           </div>
@@ -59,6 +60,7 @@ export function Navbar() {
             exit={{ opacity: 0, y: -20 }}
             className="fixed top-[70px] left-0 w-full bg-black/95 backdrop-blur-xl z-40 border-b border-white/10 md:hidden flex flex-col items-center py-8 space-y-6 shadow-2xl"
           >
+            <button onClick={() => scrollTo('video-showcase')} className="text-white font-headline-md font-bold text-lg tracking-widest uppercase hover:text-lays-yellow transition-colors">Watch</button>
             <button onClick={() => scrollTo('flavors')} className="text-white font-headline-md font-bold text-lg tracking-widest uppercase hover:text-lays-yellow transition-colors">Flavors</button>
             <button onClick={() => scrollTo('recipes')} className="text-white font-headline-md font-bold text-lg tracking-widest uppercase hover:text-lays-yellow transition-colors">Recipes</button>
             <button onClick={() => scrollTo('about-lays')} className="text-white font-headline-md font-bold text-lg tracking-widest uppercase hover:text-lays-yellow transition-colors">Our Legacy</button>

@@ -8,6 +8,7 @@ import { usePreloadFrames } from './hooks/usePreloadFrames';
 import { Loader } from './components/Loader';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
+import { VideoShowcase } from './components/VideoShowcase';
 import { AboutLays } from './components/AboutLays';
 import { OriginStory } from './components/OriginStory';
 import { Anatomy } from './components/Anatomy';
@@ -53,6 +54,7 @@ function App() {
           <OriginStory />
           <Anatomy />
           <DecodingFlavor />
+          <VideoShowcase />
           <Recipes />
           <BuyNow onOrderClick={handleOrderClick} />
           <StoreLocator />
